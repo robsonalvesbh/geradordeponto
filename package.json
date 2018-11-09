@@ -1,0 +1,24 @@
+{
+  "name": "geradordeponto",
+  "version": "1.0.0",
+  "description": "Gerador de horários para preenchimento de cartão de ponto",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.22.2",
+    "restify": "^7.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robsonalvesbh/geradordeponto.git"
+  },
+  "author": "Robson Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robsonalvesbh/geradordeponto/issues"
+  },
+  "homepage": "https://github.com/robsonalvesbh/geradordeponto#readme"
+}
