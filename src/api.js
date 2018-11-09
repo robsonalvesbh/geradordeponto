@@ -7,6 +7,8 @@ server.use(restify.plugins.bodyParser({
 
 require('./../src/routes/Router').load(server);
 
-server.listen(8080, function() {
-  console.log('%s listening at %s', server.name, server.url);
+var port = process.env.PORT || 5000;
+
+server.listen(port, function() {
+  console.log('%s listening at %s:$s', server.name, server.url, port);
 });
