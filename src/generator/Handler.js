@@ -1,7 +1,10 @@
+const Generator = require('./Generator');
+
 class Handler {
     generate(req, res, next) {
-        console.log(req.body)
-        return res.send(200, JSON.parse(req.body))
+        const generator = new Generator();
+        const times = generator.generate(JSON.parse(req.body));
+        return res.send(times);
     }
 }
 
